@@ -21,7 +21,7 @@ DB_USER=postgres # Пользователь базы.Тип: str
 DB_PASSWORD=postgres # Пароль пользователя базы.Тип: str
 SECRET_KEY=secret_key # Cекретный ключ.Тип: str
 DEBUG=true # Включение/Выключения режима отладки Django.Тип: bool. По умолчанию: False
-ALLOWED_HOSTS=* # Список строк, представляющих имена хостов/доменов, которые может обслуживать Django.
+ALLOWED_HOSTS=your_website.com,*.your_website.com # Список строк, представляющих имена хостов/доменов, которые может обслуживать Django.
 ```
 
 Python3 должен быть уже установлен.
