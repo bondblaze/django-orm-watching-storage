@@ -22,7 +22,7 @@ INSTALLED_APPS = ['datacenter']
 
 ROOT_URLCONF = 'project.urls'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default="*")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
